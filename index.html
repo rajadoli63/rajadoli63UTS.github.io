@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link </a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>HOME</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CV</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Computer</a>
+  <a href="#failed" class="w3-bar-item w3-button w3-hide-small w3-hover-white">FAILED</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">My ARTS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">MORE<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="indexaboutme.html" class="w3-bar-item w3-button">About Me</a>
+      <a href="https://www.tokopedia.com/cibistocksale" class="w3-bar-item w3-button">TokoKu</a>
+      
+    </div>
+  </div>
+  <a href="https://www.google.com/" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">CV</a>
+    <a href="#work" class="w3-bar-item w3-button">Computer</a>
+    <a href="#failed" class="w3-bar-item w3-button">FAILED</a>
+    <a href="#pricing" class="w3-bar-item w3-button">My ARTS</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="https://www.google.com" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1000px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <a href="https://www.instagram.com/setia_63anti/?hl=id">
+  <img src="113.jpg" style="width:100%">
+  </a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <a href="https://www.instagram.com/rd76.rd/?hl=id">
+  <img src="gitar.jpg" style="width:100%"> </a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <a href="https://www.instagram.com/rd76.rd/?hl=id">
+  <img src="main gitar.jpg" style="width:100%"> </a>
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
+    
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Curiculum Vitae</h2>
+<p>May this example of CV helps you!</p>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="Raja Doli Tota Parulian Situmorang.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Raja Doli T.P.S.</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Chemical Analyst</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bogor, Indonesia</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>rajadoli63@smakbo.sch.id</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+62 858-8790-7846 (WhatsApp)</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Organic Chemistry</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          </div>
+          <p>Conventional Analysist</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">
+              <div class="w3-center w3-text-white">85%</div>
+            </div>
+          </div>
+          <p>Instrument Analysist</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Computer Science</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%">80%</div>
+          </div>
+          <p>Indonesia</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%">100%</div>
+          </div>
+          <p>Batak</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%">25%</div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>PT. Analisis Anugrah Sempurna</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2019 - June 2025<span class="w3-tag w3-teal w3-round"></span></h6>
+          <p>Work in AAS as Petroleum Laboratory Manager</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>PT. Chevron Pacific Indonesia</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2025 - December 2028</h6>
+          <p>Work in CPI as Maintenance Engineer</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Chevron US Corporation</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2029 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Work In Chevron US Corporation as Drill Manager</p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Intermediate Web Developer</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Bogor Vocational High School of Chemical Analyst</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2021</h6>
+          <p>Diploma 1 Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Department of Petroleum and Geosystems Engineering at The University of Texas</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025 - 2027</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Department of Petroleum and Geosystems Engineering at The University of Texas</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2027 - 2029</h6>
+          <p>Master Degree</p><br>
+
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+    </div>
+  </div>  
+</div>
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work"> 
+
+<div class="w3-quarter">
+<h2>All About Computer</h2>
+<p>You may see this if you are a computer enthusiast! </p>
+<p class="w3-justify"> The computer as we know it today had its beginning with a 19th century English mathematics professor name Charles Babbage.
+He designed the Analytical Engine and it was this design that the basic framework of the computers of today are based on. Generally speaking, computers can be classified into three generations.</p>
+
+  <p class="w3-justify">First generation: 1937 – 1946. In 1937 the first electronic digital computer was built by Dr. John V. Atanasoff and Clifford Berry. It was called the Atanasoff-Berry Computer (ABC). In 1943 an electronic computer name the Colossus was built for the military. Other developments continued until in 1946 the first general– purpose digital computer, the Electronic Numerical Integrator and Computer (ENIAC) was built. It is said that this computer weighed 30 tons, and had 18,000 vacuum tubes which was used for processing. When this computer was turned on for the first time lights dim in sections of Philadelphia. it could only perform single task, and they had no operating system.
+
+</p>
+  <p class="w3-justify">Second generation: 1947 – 1962 - This generation of computers used transistors instead of vacuum tubes which were more reliable.</p>
+
+
+  <p class="w3-justify">Third generation: 1963 - present - The invention of integrated circuit brought us the third generation of computers. With this invention computers became smaller, more powerful more reliable and they are able to run many different programs at the same time. In 1980 Microsoft starts build software until now that we known-well as windows. Until now Computers are transformed into the smaller shape such as Tablets, Laptops, Adaptable devices, and many more</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+ 
+
+<a href="https://www.amd.com/en/products/ryzen-threadripper">
+  <img src="amdryzen.jpg" alt="Snow" style="height:450px;width:450px"> </a>
+
+  <div class="w3-container">
+  <h3>AMD Processsors</h3>
+  <h4>Ryzen Threadripper</h4>
+  <p class="w3-justify">Not long ago, AMD unveiled the AMD Ryzen™ Threadripper WX Series processors with record-setting performance for serious content creation applications that generally scale across many CPU cores. The AMD Ryzen™ Threadripper 2970WX and 2990WX achieved such breakneck performance with 24 or 32 cores spread across four processor dies: two with direct access to local memory, and two with access to memory via the Infinity Fabric. This smart design enabled backwards compatibility with existing AMD X399-based motherboards, too!</p>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+
+  <a href="https://www.intel.com/content/www/us/en/products/processors/core/i9-processors.html">
+  <img src="inteli9.jpg" alt="Lights" style="height:450px;width:450px"> </a>
+
+  
+  <div class="w3-container">
+  <h3>Intel® Processors</h3>
+  <h4>Intel® Core™ i9 </h4>
+   <p class="w3-justify">The first 9th Gen Intel® Core™ i9 desktop processor with 8-cores 16-threads, up to 5 GHz frequency and a fully unlocked. The first mobile Intel® processor with up to 6-cores and 12 threads, featuring the new Intel® Thermal Velocity Boost (Intel® TVB) technology and a fully unlocked K-series SKU. New levels of single, multi-threaded, and mega-tasking performance for the latest AAA games and VR. Experience faster game load with Intel® Optane™ technology, and faster wireless than gigabit Ethernet with Intel® Wireless-AC 2x2 160 MHz.</p>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+
+  <a href="https://www.nvidia.com/en-us/geforce/20-series/">
+  <img src="vgartx.png" alt="Mountains" style="height:450px;width:450px"> </a>
+
+  
+  <div class="w3-container">
+  <h3>Nvidia Graphics Card</h3>
+  <h4>RTX | Ray Tracing and DLSS</h4>
+  <p class="w3-justify">Ray tracing is the holy grail of gaming graphics, simulating the physical behavior of light to bring real-time, cinematic-quality rendering to even the most visually intense games like never before. Experience ray tracing first-hand with the interactive demos and videos below. Deep Learning Super Sampling (DLSS) is new RTX technology that uses the power of deep learning and AI to train the GPU to render crisp images, while running up to 2x faster than previous generation GPUs using conventional anti-aliasing techniques.</p>
+ 
+                      </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- failed -->
+  <div class="w3-row-padding w3-center w3-padding-64" id="failed">
+
+        <div class="w3-container w3-center">
+  <hr>
+  <h3>FAILED GIFT AND PICTURE EDITING</h3>
+  </div>
+
+  <div class="w3-row-padding"> 
+
+  <div class="w3-third">
+  <div class="w3-card">
+  <img src="HOBI RAJA DOLI PSG.png"  style="height:400px;width:670px">
+  <div class="w3-container">
+  <p></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="w3-third">
+  <div class="w3-card">
+  <img src="gila 2.gif"  style="height:400px;width:400px">
+  <div class="w3-container">
+  <p></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="w3-third">
+  <div class="w3-card">
+  <img src="gila.png"   style="height:400px;width:670px">
+  <div class="w3-container">
+  <p></p>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+      </div>
+    </div>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>My ARTS</h2>
+      <H3>By colaborating pictures and crop LOGOS, i made this!!! </H3>
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <img src="CANDLE.gif" style="height:358px;width:636px">
+    <h2>CANDLE</h2>
+    <p>This gif was made by me in GIMP 2.10.8</p>
+  </div>
+</div>
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <img src="Corsair RGB.gif" style="height:358px;width:636px">
+    <h2>CORSAIR</h2>
+    <p>I LOVE CORSAIR RGB KEYBOARD, SO I MADE THIS</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-orange">
+    <img src="ROG RGB.gif" style="height:358px;width:636px">
+    <h2>ROG RGB</h2>
+    <p>I NEVER USE ROG, BUT MY FRIEND ASK ME TO MADE HIM THIS </p>
+  </div>
+</div>
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-orange">
+    <img src="LOGITECH RGB.gif" style="height:358px;width:636px">
+    <h2>LOGITECH RGB</h2>
+    <p>I LOVE THEIR MOUSES AND HEADSETS</p>
+      </div>
+     </div>
+</div>
+    
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Me</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Lingkungan 02 Citatah Dalam No.72, Ciriung, Cibinong, Bogor, West Java, Indonesia</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +62 858-8790-7846 (WhatsApp)</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  rajadoli63@smakbo.sch.id</p>
+    </div>
+    <div class="w3-col m7">
+        <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>rajadoli63@smakbo.sch.id</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p> Bogor, West Java, Indonesia</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+62 858-8790-7846 (WhatsApp)</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+
+<a href="https://www.google.co.id/maps/place/SDN+Ciriung+06/@-6.4697963,106.8677799,17z/data=!3m1!4b1!4m8!1m2!10m1!1e2!3m4!1s0x2e69e9ff55193bd5:0x904615e1b7d08c1c!8m2!3d-6.4697963!4d106.8699686">
+  <img src="alamatrumah.png" class="w3-image w3-greyscale-min" style="width:100%;"> </a>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+<h4>Find Me at      </h4>
+  <a class="w3-button w3-large w3-teal" href="https://web.facebook.com/raja.doli.908" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://plus.google.com/u/0/116194755963227469543" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/rd76.rd/?hl=en" title="instagram"><i class="fa fa-instagram"></i></a>
+
+  
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
